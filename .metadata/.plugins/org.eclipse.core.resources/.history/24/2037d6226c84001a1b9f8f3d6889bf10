@@ -1,0 +1,10 @@
+package basic;
+
+public class InetAddress {
+
+	public static void main(String[] args) {
+		InetAddress
+
+	}
+
+}

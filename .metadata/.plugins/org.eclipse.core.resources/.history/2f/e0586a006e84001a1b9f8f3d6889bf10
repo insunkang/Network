@@ -1,0 +1,12 @@
+package basic;
+
+public class URLTest01 {
+//URL클래스
+//=> 인터넷에서 확인할 수 있는 자원을 추출
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package network;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+
+//바이너리 데이터를 읽고 쓰지 않는 경우 - 문자열
+public class MyNetServer04 {
+	Socket client = null;
+	BufferedReader in = null;
+	PrintWriter out = null;
+	public static void main(String[] args) {
+		try {
+			ServerSocket server = new ServerSocket(12345);
+			
+			while(true) {
+				
+			}			
+		} catch (IOException e) {			
+			e.printStackTrace();
+		}
+		
+		
+		
+
+	}
+
+}

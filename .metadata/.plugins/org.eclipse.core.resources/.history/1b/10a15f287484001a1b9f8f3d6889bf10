@@ -1,0 +1,19 @@
+package basic;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+
+public class URLTest02 {
+
+	public static void main(String[] args) {
+		URL url = new URL("http://cafefiles.naver.net/20120209_226/pododumok_13287752996753FNE4_jpg/%C0%E5%B5%BF%B0%C7_5_pododumok.jpg");
+		try {
+			InputStream data = url.openStream();
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+	}
+
+}

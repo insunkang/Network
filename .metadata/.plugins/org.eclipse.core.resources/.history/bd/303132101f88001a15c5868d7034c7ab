@@ -1,0 +1,10 @@
+package network;
+
+public class MyNetServer01 {
+
+	public static void main(String[] args) {
+		ServerSocket server = new ServerSocket(12345);
+
+	}
+
+}

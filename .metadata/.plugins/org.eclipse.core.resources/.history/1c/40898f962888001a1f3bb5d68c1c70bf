@@ -1,0 +1,16 @@
+package networkExam;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.net.Socket;
+
+public class MyNetServer03 {
+	public static void main(String[] args) {
+		Socket client = null;
+		InputStream is  =null;
+		DataInputStream dis = null;
+		OutputStream os = null;
+
+	}
+
+}

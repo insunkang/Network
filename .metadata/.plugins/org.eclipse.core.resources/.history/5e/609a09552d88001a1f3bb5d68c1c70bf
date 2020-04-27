@@ -1,0 +1,16 @@
+package network;
+
+import java.io.BufferedReader;
+import java.net.Socket;
+
+
+//바이너리 데이터를 읽고 쓰지 않는 경우 - 문자열
+public class MyNetServer04 {
+
+	public static void main(String[] args) {
+		Socket client = null;
+		BufferedReader
+
+	}
+
+}
