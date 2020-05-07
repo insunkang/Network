@@ -8412,3 +8412,6 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at java.io.FileInputStream.<init>(Unknown Source)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:172)
 	... 78 more
+
+!ENTRY org.eclipse.ui 4 4 2020-05-07 15:23:56.927
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {ActionHandler(org.eclipse.contribution.xref.internal.ui.inplace.XReferenceInplaceDialog$11@3f0917a6)} vs {org.eclipse.ui.internal.ShowViewMenuHandler@47a1561}
