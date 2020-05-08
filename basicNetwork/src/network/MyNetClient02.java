@@ -21,7 +21,7 @@ public class MyNetClient02 {
 			OutputStream os = null;	//클라이언트와 output할 수 있는 스트림
 			DataOutputStream dos = null;
 			try {
-				socket = new Socket("70.12.115.69",12345);
+				socket = new Socket("70.12.116.88",12345);
 				System.out.println("서버접속 완료.."+socket);
 				
 				//클라이언트에서도 서버와 통신할 수 있는 소켓객체로 부터 input/output 스트림을 구한다
